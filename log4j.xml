@@ -25,18 +25,6 @@
         </layout>
     </appender>
  
- 
-    <logger name="com.journaldev.log4j" additivity="false">
-        <level value="DEBUG" />
-        <appender-ref ref="file" />
-        <appender-ref ref="console" />
-    </logger>
- 
-    <logger name="com.journaldev.log4j.logic" additivity="false">
-        <level value="INFO" />
-        <appender-ref ref="file" />
-    </logger>
- 
     <root>
         <priority value="DEBUG" />
         <appender-ref ref="file" />
