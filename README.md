@@ -111,3 +111,6 @@ public class MainApp {
 ```
 
 Finally I was able to call my basic endpoint `http://localhost:4567/hello` from [Postman](https://www.getpostman.com/).
+
+
+> Thanks to [Chiu-Ki Chan](https://twitter.com/chiuki) for her advices about blogging in her video [How to be an Android Expert - Chiu-Ki Chan - 2015 Android Summit](https://www.youtube.com/watch?v=IMSY1uH4nT8).
