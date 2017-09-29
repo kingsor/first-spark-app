@@ -13,6 +13,12 @@ public class MainApp {
     }
 
 	public static void main(String[] args) {
+		get("/", (req, res) -> {
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
+			String message = String.format("Spark Main Page on Heroku [%s]", sdf.format(new Date()));
+			return message;
+		});
+
 		get("/hello", (req, res) -> {
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
 			String message = String.format("Hello World [%s]", sdf.format(new Date()));

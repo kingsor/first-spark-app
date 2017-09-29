@@ -34,7 +34,7 @@
           </descriptorRefs>
           <archive>
             <manifest>
-              <mainClass>MainApp</mainClass>
+              <mainClass>com.example.web.app.MainApp</mainClass>
             </manifest>
           </archive>
         </configuration>
