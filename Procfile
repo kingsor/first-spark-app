@@ -1,0 +1,1 @@
+web: java -jar target/first-spark-app-1.0.jar
