@@ -5,15 +5,26 @@ import static spark.Spark.port;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
 public class MainApp {
+
+	static final Logger logger = Logger.getLogger( MainApp.class );
 	
 	static{
         init();
     }
 
 	public static void main(String[] args) {
+
+		logger.info("java.version:" + System.getProperty("java.version"));
+		logger.info("java.vm.info:" + System.getProperty("java.vm.info"));
+		logger.info("os.arch:" + System.getProperty("os.arch"));
+		logger.info("os.name:" + System.getProperty("os.name"));
+		logger.info("os.version:" + System.getProperty("os.version"));
+		logger.info("sun.arch.data.model:" + System.getProperty("sun.arch.data.model"));
+		logger.info("java.library.path:" + System.getProperty("java.library.path"));
 		
 		port(getHerokuAssignedPort());
 
