@@ -114,3 +114,5 @@ Finally I was able to call my basic endpoint `http://localhost:4567/hello` from 
 
 
 > Thanks to [Chiu-Ki Chan](https://twitter.com/chiuki) for her advices about blogging in her video [How to be an Android Expert](https://www.youtube.com/watch?v=IMSY1uH4nT8) from [Android Summit 2015](https://www.youtube.com/playlist?list=PLzJZrgVJE8Bbjjpj7Sc3CpldvIiGnJFDg)
+
+Mod test for Slack Channel integration
